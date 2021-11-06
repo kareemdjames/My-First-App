@@ -15,6 +15,9 @@
 		92C764A92734B2AC00813A53 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C764A82734B2AC00813A53 /* Home.swift */; };
 		92C764AB2735564D00813A53 /* RX7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C764AA2735564D00813A53 /* RX7.swift */; };
 		92C764AD27356BA700813A53 /* ToyotaSupra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C764AC27356BA700813A53 /* ToyotaSupra.swift */; };
+		92C764B3273712BB00813A53 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C764B2273712BB00813A53 /* Car.swift */; };
+		92C764B527371AA200813A53 /* CarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C764B427371AA200813A53 /* CarListView.swift */; };
+		92C764B727371F8600813A53 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C764B627371F8600813A53 /* CarDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		92C764A82734B2AC00813A53 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		92C764AA2735564D00813A53 /* RX7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RX7.swift; sourceTree = "<group>"; };
 		92C764AC27356BA700813A53 /* ToyotaSupra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyotaSupra.swift; sourceTree = "<group>"; };
+		92C764B2273712BB00813A53 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		92C764B427371AA200813A53 /* CarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListView.swift; sourceTree = "<group>"; };
+		92C764B627371F8600813A53 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				92C764A72734A1B200813A53 /* My-First-App-Info.plist */,
+				92C764B427371AA200813A53 /* CarListView.swift */,
 				9217D7F22732D3A80073325F /* My_First_AppApp.swift */,
 				9217D7F42732D3A80073325F /* ContentView.swift */,
 				92C764A82734B2AC00813A53 /* Home.swift */,
@@ -69,6 +76,8 @@
 				9217D8002732D9DF0073325F /* CircleImage.swift */,
 				9217D7F62732D3AA0073325F /* Assets.xcassets */,
 				9217D7F82732D3AA0073325F /* Preview Content */,
+				92C764B2273712BB00813A53 /* Car.swift */,
+				92C764B627371F8600813A53 /* CarDetailView.swift */,
 			);
 			path = "My First App";
 			sourceTree = "<group>";
@@ -152,10 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C764AD27356BA700813A53 /* ToyotaSupra.swift in Sources */,
+				92C764B527371AA200813A53 /* CarListView.swift in Sources */,
 				9217D7F52732D3A80073325F /* ContentView.swift in Sources */,
 				9217D7F32732D3A80073325F /* My_First_AppApp.swift in Sources */,
 				92C764A92734B2AC00813A53 /* Home.swift in Sources */,
 				9217D8012732D9DF0073325F /* CircleImage.swift in Sources */,
+				92C764B3273712BB00813A53 /* Car.swift in Sources */,
+				92C764B727371F8600813A53 /* CarDetailView.swift in Sources */,
 				92C764AB2735564D00813A53 /* RX7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

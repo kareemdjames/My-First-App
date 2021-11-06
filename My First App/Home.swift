@@ -15,16 +15,10 @@ struct Home: View {
                     .navigationTitle("Home")
                 Color.orange
                 VStack {
-                    NavigationLink(destination: RX7(), label: {
-                        Text("RX7")
-                            .bold()
-                            .frame(width: 280, height: 50)
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                    })
-                    NavigationLink(destination: ToyotaSupra(), label: {
-                        Text("Toyota Supra")
+                    
+                    Text("Welcome to JDM Gems")
+                    NavigationLink(destination: CarListView(), label: {
+                        Text("Enter")
                             .bold()
                             .frame(width: 280, height: 50)
                             .background(Color.blue)
