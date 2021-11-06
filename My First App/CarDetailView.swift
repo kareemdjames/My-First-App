@@ -8,13 +8,49 @@
 import SwiftUI
 
 struct CarDetailView: View {
+    
+    var car: Car
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.orange
+            VStack {
+                CircleImage(imageName: car.imageName)
+                    .padding(.top)
+                    .frame(height: 175)
+                VStack(alignment: .leading) {
+                    Text(car.title)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    HStack {
+                        Text("JDM Greatness")
+                            .font(.subheadline)
+                        Spacer()
+                        Text("Japan")
+                            .font(.subheadline)
+                    }
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    
+                    Divider()
+                    
+                    Text("About \(car.title)")
+                        .font(.title2)
+                    ScrollView {
+                        Text(car.description)
+                            .font(.body)
+                    }
+                }
+                .padding()
+                
+                Spacer()
+            }.navigationTitle(car.title)
+        }
     }
 }
 
 struct CarDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        CarDetailView()
+        CarDetailView(car: CarList.cars.first!)
     }
 }

@@ -13,7 +13,7 @@ struct CarListView: View {
     var body: some View {
             List(cars, id: \.id) { car in
                 HStack {
-                    NavigationLink(destination: CarDetailView(), label: {
+                    NavigationLink(destination: CarDetailView(car: car), label: {
                         Image(car.imageName)
                             .resizable()
                             .scaledToFit()
