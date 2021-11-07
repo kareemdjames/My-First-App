@@ -13,7 +13,6 @@ struct CarDetailView: View {
     
     var body: some View {
         ZStack {
-            Color.orange
             VStack {
                 CircleImage(imageName: car.imageName)
                     .padding(.top)

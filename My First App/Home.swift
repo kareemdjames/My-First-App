@@ -16,7 +16,7 @@ struct Home: View {
                 Color.orange
                 VStack {
                     
-                    Text("Welcome to JDM Gems")
+                    Text("Welcome to JDM Gems") 
                     NavigationLink(destination: CarListView(), label: {
                         Text("Enter")
                             .bold()
