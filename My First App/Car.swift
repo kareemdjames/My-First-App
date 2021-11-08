@@ -26,7 +26,7 @@ struct CarList {
             title: "Mazda Rx7 FD",
             description: "The third and last generation of the RX-7, known as the FD, 2-door sports coupe was manufactured in three Series, 6, 7 and 8, and was based on a 2.6L Wankel rotary engine positioned behind the front axle. A total of three outputs were available, 236 HP, 255 HP and 276 HP, all of them joined by a manual, 5-speed transmission as standard. Optionally, a 4-speed automatic transmission could also be fitted. Braking efficiency and fading resistance were improved thanks to the all round ventilated discs. The FD RX-7 was declared Playboy's Car of the Year in 1993 and numerous publications rated it as one of best sports cars.",
             url: URL(string:"https://www.autoevolution.com/cars/mazda-rx-7-fd-1992.html#aeng_mazda-rx-7-fd-1992-26-rotary-tt-236-hp")!),
-        Car(imageName: "Supra",
+        Car(imageName: "Supra2",
             make: "Toyota",
             model: "Supra MK4",
             title: "Toyota Supra MK4",

@@ -39,6 +39,20 @@ struct CarDetailView: View {
                         Text(car.description)
                             .font(.body)
                     }
+                    
+                    VStack (alignment: .center) {
+                        Link(destination: car.url, label: {
+                            Text("More Details")
+                                .bold()
+                                .font(.title2)
+                                .frame(width: 280, height: 50)
+                                .background(Color(.systemRed))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                                .padding()
+                        })
+                    }
+                    .frame(maxWidth: .infinity)
                 }
                 .padding()
                 
