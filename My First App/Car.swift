@@ -31,7 +31,13 @@ struct CarList {
             model: "Supra MK4",
             title: "Toyota Supra MK4",
             description: "When the 1993 model of Toyota Supra was introduced, the Japanese company officially started the production of the fourth generation of the vehicle which was first unveiled in 1979. If Toyota stopped the sales of Supra in the United States in 1999, the company decided to end the production of the model in 2002. The 1993 edition had a couple of improvements from the previous model as well as new engines and transmissions. For instance, the Supra received a new twin turbocharged engine which developed 276 horsepower, but it was only available on Toyota's domestic market.",
-            url: URL(string:"https://www.autoevolution.com/cars/toyota-supra-1993.html#aeng_toyota-supra-1993-30l-4a-t-220-hp")!)
+            url: URL(string:"https://www.autoevolution.com/cars/toyota-supra-1993.html#aeng_toyota-supra-1993-30l-4a-t-220-hp")!),
+        Car(imageName: "MR2",
+            make: "Toyota",
+            model: "MR2",
+            title: "Toyota MR2",
+            description: "The rear-wheel-drive sports car MR2 was a two-seat, mid-engined car produced by the Japanese manufacturer Toyota. The first generation was released in 1984 and it was in 1990 when the 2nd generation was unveiled to the public. The exterior design of the MR2 was refreshed, the car got larger and its weight was also increased. The new MR2 was equipped with new engines and a more spacious, luxurious cabin. The new exterior lines the MR2 looked similar to the ones on the Ferrari, reason why some considered the MR2 to be the less expensive version of a Ferrari. THe MR2 was sold all over the world, with different trim levels depending on the market. For the Japanese market, the MR2 came in 4 trim levels: G, G-Limited, GT-S and GT. The power of the engines ranged between 165 hp and 218 hp. The MR2 offered for the European market came in 3 versions: the Coupe, the GT Coupe and the GT T-Bar. The top of the range came with leather upholstery and a premium, 8-speaker sound system. On the US market, the MR2 came with only two trim levels: the MR2 and the MR2 Turbo. The Turbo version was fitted with a turbocharged engine of 2.0-liters that cranked out 200 hp.",
+            url: URL(string:"https://www.autoevolution.com/cars/toyota-mr2-1990.html#aeng_toyota-mr2-1990-20l-4at-156-hp")!)
     ]
     
 }
