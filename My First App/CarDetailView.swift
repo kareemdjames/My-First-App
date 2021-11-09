@@ -10,6 +10,8 @@ import SwiftUI
 struct CarDetailView: View {
     
     var car: Car
+    let jdmGreatness = "JDM Greatness"
+    let country = "Japan"
     
     var body: some View {
         ZStack {
@@ -22,10 +24,10 @@ struct CarDetailView: View {
                         .font(.title)
                         .fontWeight(.bold)
                     HStack {
-                        Text("JDM Greatness")
+                        Text(jdmGreatness)
                             .font(.subheadline)
                         Spacer()
-                        Text("Japan")
+                        Text(country)
                             .font(.subheadline)
                     }
                     .font(.subheadline)
