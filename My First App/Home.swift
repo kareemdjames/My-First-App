@@ -15,8 +15,9 @@ struct Home: View {
                     .navigationTitle("Home")
                 Color.orange
                 VStack {
-                    
-                    Text("Welcome to JDM Gems") 
+                    Spacer()
+                    Text("Welcome to JDM Gems")
+                    Spacer()
                     NavigationLink(destination: CarListView(), label: {
                         Text("Enter")
                             .bold()
@@ -25,6 +26,8 @@ struct Home: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                     })
+                    Spacer()
+                        .frame(height: 50)
                 }
             }
         }
